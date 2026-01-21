@@ -1,0 +1,73 @@
+{
+    "school_year": "2025-2026",
+    "start_date": "2025-09-02",
+    "end_date": "2026-06-19",
+    "periods": [
+        {
+            "name": "Fall Semester",
+            "start": "2025-09-02",
+            "end": "2025-12-19"
+        },
+        {
+            "name": "Winter Break",
+            "start": "2025-12-22",
+            "end": "2026-01-04"
+        },
+        {
+            "name": "Spring Semester",
+            "start": "2026-01-05",
+            "end": "2026-06-19"
+        }
+    ],
+    "vacanta_ski_2026": [],
+    "periods_after_ski": [
+        {
+            "name": "Spring Break",
+            "start": "2026-03-16",
+            "end": "2026-03-27"
+        }
+    ],
+    "weekends": true,
+    "public_holidays": [
+        {
+            "date": "2025-09-01",
+            "name": "Labor Day"
+        },
+        {
+            "date": "2025-10-13",
+            "name": "Columbus Day / Indigenous Peoples' Day"
+        },
+        {
+            "date": "2025-11-11",
+            "name": "Veterans Day"
+        },
+        {
+            "date": "2025-11-27",
+            "name": "Thanksgiving Day"
+        },
+        {
+            "date": "2025-12-25",
+            "name": "Christmas Day"
+        },
+        {
+            "date": "2026-01-01",
+            "name": "New Year's Day"
+        },
+        {
+            "date": "2026-01-19",
+            "name": "Martin Luther King Jr. Day"
+        },
+        {
+            "date": "2026-02-16",
+            "name": "Presidents' Day"
+        },
+        {
+            "date": "2026-05-25",
+            "name": "Memorial Day"
+        },
+        {
+            "date": "2026-06-19",
+            "name": "Juneteenth"
+        }
+    ]
+}

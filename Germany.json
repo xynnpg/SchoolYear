@@ -1,0 +1,122 @@
+{
+    "school_year": "2025-2026",
+    "start_date": "2025-08-01",
+    "end_date": "2026-07-31",
+    "periods": [
+        {
+            "name": "Herbstferien (Autumn Holidays)",
+            "start": "2025-10-13",
+            "end": "2025-11-02"
+        },
+        {
+            "name": "Weihnachtsferien (Christmas Holidays)",
+            "start": "2025-12-22",
+            "end": "2026-01-05"
+        }
+    ],
+    "vacanta_ski_2026": [
+        {
+            "start": "2026-02-02",
+            "end": "2026-02-07",
+            "judete": [
+                "Berlin",
+                "Brandenburg",
+                "Thüringen"
+            ]
+        },
+        {
+            "start": "2026-02-02",
+            "end": "2026-02-03",
+            "judete": [
+                "Bremen",
+                "Niedersachsen"
+            ]
+        },
+        {
+            "start": "2026-01-31",
+            "end": "2026-02-06",
+            "judete": [
+                "Sachsen-Anhalt"
+            ]
+        },
+        {
+            "start": "2026-02-09",
+            "end": "2026-02-21",
+            "judete": [
+                "Mecklenburg-Vorpommern",
+                "Sachsen"
+            ]
+        },
+        {
+            "start": "2026-02-16",
+            "end": "2026-02-20",
+            "judete": [
+                "Bayern",
+                "Saarland"
+            ]
+        },
+        {
+            "start": "2026-01-30",
+            "end": "2026-01-30",
+            "judete": [
+                "Hamburg"
+            ]
+        }
+    ],
+    "periods_after_ski": [
+        {
+            "name": "Osterferien (Easter Holidays)",
+            "start": "2026-03-30",
+            "end": "2026-04-10"
+        },
+        {
+            "name": "Pfingstferien (Whitsun Holidays)",
+            "start": "2026-05-26",
+            "end": "2026-06-05"
+        },
+        {
+            "name": "Sommerferien (Summer Holidays)",
+            "start": "2026-06-25",
+            "end": "2026-09-05"
+        }
+    ],
+    "weekends": true,
+    "public_holidays": [
+        {
+            "date": "2025-10-03",
+            "name": "Tag der Deutschen Einheit"
+        },
+        {
+            "date": "2025-12-25",
+            "name": "Weihnachten"
+        },
+        {
+            "date": "2025-12-26",
+            "name": "2. Weihnachtsfeiertag"
+        },
+        {
+            "date": "2026-01-01",
+            "name": "Neujahr"
+        },
+        {
+            "date": "2026-04-03",
+            "name": "Karfreitag"
+        },
+        {
+            "date": "2026-04-06",
+            "name": "Ostermontag"
+        },
+        {
+            "date": "2026-05-01",
+            "name": "Tag der Arbeit"
+        },
+        {
+            "date": "2026-05-14",
+            "name": "Christi Himmelfahrt"
+        },
+        {
+            "date": "2026-05-25",
+            "name": "Pfingstmontag"
+        }
+    ]
+}

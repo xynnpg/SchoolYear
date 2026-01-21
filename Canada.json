@@ -1,0 +1,51 @@
+{
+    "school_year": "2025-2026",
+    "start_date": "2025-09-02",
+    "end_date": "2026-06-30",
+    "periods": [
+        {
+            "name": "Winter Break",
+            "start": "2025-12-22",
+            "end": "2026-01-04"
+        }
+    ],
+    "vacanta_ski_2026": [],
+    "periods_after_ski": [
+        {
+            "name": "March Break / Spring Break",
+            "start": "2026-03-16",
+            "end": "2026-03-20"
+        }
+    ],
+    "weekends": true,
+    "public_holidays": [
+        {
+            "date": "2025-09-01",
+            "name": "Labour Day"
+        },
+        {
+            "date": "2025-10-13",
+            "name": "Thanksgiving Day"
+        },
+        {
+            "date": "2025-12-25",
+            "name": "Christmas Day"
+        },
+        {
+            "date": "2026-01-01",
+            "name": "New Year's Day"
+        },
+        {
+            "date": "2026-02-16",
+            "name": "Family Day (most provinces)"
+        },
+        {
+            "date": "2026-04-03",
+            "name": "Good Friday"
+        },
+        {
+            "date": "2026-05-18",
+            "name": "Victoria Day"
+        }
+    ]
+}

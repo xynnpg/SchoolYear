@@ -1,0 +1,61 @@
+{
+    "school_year": "2025-2026",
+    "start_date": "2025-09-08",
+    "end_date": "2026-06-26",
+    "periods": [
+        {
+            "name": "Birinci Ara Tatil (First Mid-Term Break)",
+            "start": "2025-11-10",
+            "end": "2025-11-14"
+        },
+        {
+            "name": "Yarıyıl Tatili (Semester Break)",
+            "start": "2026-01-19",
+            "end": "2026-01-30"
+        }
+    ],
+    "vacanta_ski_2026": [],
+    "periods_after_ski": [
+        {
+            "name": "İkinci Ara Tatil (Second Mid-Term Break)",
+            "start": "2026-03-16",
+            "end": "2026-03-20"
+        },
+        {
+            "name": "Yaz Tatili (Summer Holidays)",
+            "start": "2026-06-27",
+            "end": "2026-09-13"
+        }
+    ],
+    "weekends": true,
+    "public_holidays": [
+        {
+            "date": "2025-10-29",
+            "name": "Cumhuriyet Bayramı"
+        },
+        {
+            "date": "2026-01-01",
+            "name": "Yılbaşı"
+        },
+        {
+            "date": "2026-04-23",
+            "name": "Ulusal Egemenlik ve Çocuk Bayramı"
+        },
+        {
+            "date": "2026-05-01",
+            "name": "Emek ve Dayanışma Günü"
+        },
+        {
+            "date": "2026-05-19",
+            "name": "19 Mayıs Atatürk'ü Anma Gençlik ve Spor Bayramı"
+        },
+        {
+            "date": "2026-07-15",
+            "name": "Demokrasi ve Milli Birlik Günü"
+        },
+        {
+            "date": "2026-08-30",
+            "name": "Zafer Bayramı"
+        }
+    ]
+}

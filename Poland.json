@@ -1,0 +1,103 @@
+{
+    "school_year": "2025-2026",
+    "start_date": "2025-09-01",
+    "end_date": "2026-06-26",
+    "periods": [
+        {
+            "name": "Ferii zimowych (Christmas Break)",
+            "start": "2025-12-22",
+            "end": "2025-12-31"
+        }
+    ],
+    "vacanta_ski_2026": [
+        {
+            "start": "2026-01-19",
+            "end": "2026-02-01",
+            "judete": [
+                "mazowieckie",
+                "pomorskie",
+                "podlaskie",
+                "świętokrzyskie",
+                "warmińsko-mazurskie"
+            ]
+        },
+        {
+            "start": "2026-02-02",
+            "end": "2026-02-15",
+            "judete": [
+                "dolnośląskie",
+                "kujawsko-pomorskie",
+                "łódzkie",
+                "zachodniopomorskie",
+                "małopolskie",
+                "opolskie"
+            ]
+        },
+        {
+            "start": "2026-02-16",
+            "end": "2026-03-01",
+            "judete": [
+                "podkarpackie",
+                "lubelskie",
+                "wielkopolskie",
+                "lubuskie",
+                "śląskie"
+            ]
+        }
+    ],
+    "periods_after_ski": [
+        {
+            "name": "Ferii wielkanocnych (Easter Holidays)",
+            "start": "2026-04-02",
+            "end": "2026-04-07"
+        },
+        {
+            "name": "Ferii letnich (Summer Holidays)",
+            "start": "2026-06-27",
+            "end": "2026-08-31"
+        }
+    ],
+    "weekends": true,
+    "public_holidays": [
+        {
+            "date": "2025-11-01",
+            "name": "Wszystkich Świętych"
+        },
+        {
+            "date": "2025-11-11",
+            "name": "Święto Niepodległości"
+        },
+        {
+            "date": "2025-12-25",
+            "name": "Pierwszy dzień Bożego Narodzenia"
+        },
+        {
+            "date": "2025-12-26",
+            "name": "Drugi dzień Bożego Narodzenia"
+        },
+        {
+            "date": "2026-01-01",
+            "name": "Nowy Rok"
+        },
+        {
+            "date": "2026-01-06",
+            "name": "Trzech Króli"
+        },
+        {
+            "date": "2026-04-05",
+            "name": "Wielkanoc"
+        },
+        {
+            "date": "2026-04-06",
+            "name": "Poniedziałek Wielkanocny"
+        },
+        {
+            "date": "2026-05-01",
+            "name": "Święto Pracy"
+        },
+        {
+            "date": "2026-05-03",
+            "name": "Święto Konstytucji"
+        }
+    ]
+}

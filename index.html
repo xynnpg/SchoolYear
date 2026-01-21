@@ -1,29 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static JSON Demo</title>
+    <title>School Year Data Viewer</title>
     <style>
-        body { font-family: sans-serif; padding: 20px; }
-        pre { background: #f4f4f4; padding: 15px; border-radius: 5px; }
-        button { padding: 10px 20px; cursor: pointer; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .sidebar {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .main-content {
+            flex: 2;
+        }
+
+        button {
+            padding: 10px 15px;
+            cursor: pointer;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: left;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #e6f7ff;
+            border-color: #1890ff;
+        }
+
+        button.active {
+            background-color: #1890ff;
+            color: white;
+            border-color: #1890ff;
+        }
+
+        pre {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow-x: auto;
+            border: 1px solid #ddd;
+        }
+
+        .info {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
     </style>
 </head>
+
 <body>
-    <h1>Static JSON Page Demo</h1>
-    <p>Click the button below to fetch data from <code>data.json</code>.</p>
-    <button onclick="fetchData()">Fetch JSON</button>
-    
-    <h3>Result:</h3>
-    <pre id="output">No data loaded yet.</pre>
+    <h1>🌍 School Year Data Explorer</h1>
+
+    <div class="info">
+        <p>Select a country to view its 2025-2026 school year calendar, including holidays and vacation periods.</p>
+    </div>
+
+    <div class="container">
+        <div class="sidebar" id="countryList">
+            <!-- Buttons will be generated here -->
+        </div>
+
+        <div class="main-content">
+            <pre id="output">Select a country to load data...</pre>
+        </div>
+    </div>
 
     <script>
-        async function fetchData() {
-            const output = document.getElementById('output');
-            output.textContent = 'Loading...';
+        const countries = [
+            'Canada', 'France', 'Germany', 'Italy', 'Japan',
+            'Mexico', 'Poland', 'Romania', 'Turkey',
+            'United Kingdom', 'Usa'
+        ];
+
+        const countryList = document.getElementById('countryList');
+        const output = document.getElementById('output');
+
+        function createButtons() {
+            countries.forEach(country => {
+                const btn = document.createElement('button');
+                btn.textContent = country.replace(/([A-Z])/g, ' $1').trim(); // Add space for readability
+                btn.onclick = () => loadCountry(country, btn);
+                countryList.appendChild(btn);
+            });
+        }
+
+        async function loadCountry(country, clickedBtn) {
+            // Update UI state
+            document.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+            clickedBtn.classList.add('active');
+
+            output.textContent = 'Loading ' + country + '...';
+
             try {
-                const response = await fetch('data.json');
+                // Fetch the JSON file (e.g., "Romania.json")
+                const response = await fetch(`${country}.json`);
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
@@ -33,6 +128,10 @@
                 output.textContent = 'Error fetching data: ' + error.message;
             }
         }
+
+        // Initialize
+        createButtons();
     </script>
 </body>
+
 </html>
